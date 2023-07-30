@@ -19,6 +19,9 @@ menu "WILC BT and WiFi Applications"
 	source "$BR2_EXTERNAL_MCHP_PATH/package/wilcbtapps/Config.in"
 endmenu
 
+menu "VBXHELLO Packages"
+    source "$BR2_EXTERNAL_MCHP_PATH/package/vbxhello/src/Config.in"
+endmenu
 
 menu "Microchip CryptoAuth"
 	source "$BR2_EXTERNAL_MCHP_PATH/package/cryptoauthlib/Config.in"
