@@ -1,0 +1,7 @@
+# ====================================
+# buildroot/package/vectorblox/Config.in
+# ====================================
+config BR2_EXTERNAL_VECTORBLOX_APPS
+    bool "vectorblox"
+    help
+        Vortex-CoLab applications
